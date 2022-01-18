@@ -1,0 +1,53 @@
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --darker-cyan: hsl(179, 100%, 13%);
+  --white-75: hsla(0, 0%, 100%, 0.75);
+  --gray-95: hsl(0, 0%, 95%);
+  --font-shoulders: 'Big Shoulders Display', cursive;
+  --font-deca: 'Lexend Deca', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: var(--font-deca);
+  font-size: 16px;
+  background-color: var(--white-75);
+}
+
+/* Hidden h1 for accessibility */
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.container {}
+
+.card-component {}
+
+.card__image {}
+
+.card__title {}
+
+.card__text {}
+
+.card__btn {}
+
+footer {}
+
+.fm-attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.fm-attribution a { 
+  color: hsl(228, 45%, 44%);
+}
