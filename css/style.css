@@ -2,6 +2,7 @@
   --orange: hsl(31, 77%, 52%);
   --dark-cyan: hsl(184, 100%, 22%);
   --darker-cyan: hsl(179, 100%, 13%);
+  --white: hsl(0, 0%, 100%);
   --white-75: hsla(0, 0%, 100%, 0.75);
   --gray-95: hsl(0, 0%, 95%);
   --font-shoulders: 'Big Shoulders Display', cursive;
@@ -11,9 +12,9 @@
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
   font-family: var(--font-deca);
   font-size: 16px;
+  color: var(--white);
   background-color: var(--white-75);
 }
 
@@ -29,17 +30,75 @@ body {
   position: absolute;
 }
 
-.container {}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+}
 
-.card-component {}
+.container {
+  display: grid;
+  max-width: 320px;
+  width: 100%;
+  border-radius: .5rem;
+  overflow: hidden;
+}
 
-.card__image {}
+.card-component {
+  padding: 2.5rem;
+}
 
-.card__title {}
+.col-one {
+  background-color: var(--orange);
+}
 
-.card__text {}
+.col-two {
+  background-color: var(--dark-cyan);
+}
 
-.card__btn {}
+.col-three {
+  background-color: var(--darker-cyan);
+}
+
+.card__image {
+  padding-bottom: 1.25rem;
+}
+
+.card__title {
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: var(--font-shoulders);
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+.card__text {
+  line-height: 1.75;
+  padding-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.card__btn {
+  font-size: .85rem;
+  background-color: var(--white);
+  padding: .75rem 2rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+
+.col-one .card__btn {
+  color: var(--orange);
+}
+
+.col-two .card__btn {
+  color: var(--dark-cyan);
+}
+
+.col-three .card__btn {
+  color: var(--darker-cyan);
+}
 
 footer {}
 
