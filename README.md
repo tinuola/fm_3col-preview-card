@@ -15,8 +15,6 @@ Users should be able to:
 
 Live Site: [https://tinuola.github.io/fm-3col-preview-card/](https://tinuola.github.io/fm-3col-preview-card/)
 
-### Tools
-
 ### Resources
 
 - [A Modern CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/)
