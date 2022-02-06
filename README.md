@@ -18,3 +18,4 @@ Live Site: [https://tinuola.github.io/fm-3col-preview-card/](https://tinuola.git
 ### Resources
 
 - [A Modern CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/)
+- [CSS Tricks - Transition](https://css-tricks.com/almanac/properties/t/transition/)
