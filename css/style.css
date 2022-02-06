@@ -84,10 +84,17 @@ body {
 
 .card__btn {
   font-size: .85rem;
+  font-family: var(--font-deca);
   background-color: var(--white);
   padding: .75rem 2rem;
   border-radius: 1.5rem;
-  border: none;
+  border: 2px solid var(--white);
+  transition: background-color 0.5s ease;
+}
+
+.card__btn:hover {
+  background-color: unset;
+  cursor: pointer;
 }
 
 .col-one .card__btn {
@@ -100,6 +107,12 @@ body {
 
 .col-three .card__btn {
   color: var(--darker-cyan);
+}
+
+.col-one .card__btn:hover,
+.col-two .card__btn:hover,
+.col-three .card__btn:hover {
+  color: var(--white);
 }
 
 footer {
