@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Solution
 
-Live Site: [https://tinuola.github.io/fm-3col-preview-card/](https://tinuola.github.io/fm-3col-preview-card/)
+Live Site: [https://tinuola.github.io/fm_3col-preview-card/](https://tinuola.github.io/fm_3col-preview-card/)
 
 ### Resources
 
