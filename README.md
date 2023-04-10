@@ -15,11 +15,15 @@ Live Site: [https://tinuola.github.io/fm_3col-preview-card/](https://tinuola.git
 
 ### Retrospective
 
--
+- Another simple starter project
+- Revisiting the code a year later I found a few redundancies to refactor (_branch v2_), which had me curious about the original approach I took
+- Though not a significant refactor or a noticeable difference visually, I see the update as a mark of growth/refinement in my understanding of web layout
 
 ### Enhancement(s)
 
--
+- Add animation
+  - Display of cards?
+  - SVG icons on card hover?
 
 ### Tools & Resources
 
