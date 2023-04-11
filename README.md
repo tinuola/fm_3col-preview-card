@@ -16,17 +16,21 @@ Live Site: [https://tinuola.github.io/fm_3col-preview-card/](https://tinuola.git
 ### Retrospective
 
 - Another simple starter project
-- Revisiting the code a year later I found a few redundancies to refactor (_branch v2_), which had me curious about the original approach I took
-- Though not a significant refactor or a noticeable difference visually, I see the update as a mark of growth/refinement in my understanding of web layout
+- Revisiting the code a year later, I found a few redundancies to refactor (_branch v2_), which had me curious about the original approach I took
+- Though not a significant refactor or a noticeable difference visually, I see the update as a mark of refinement in my understanding web layout
+- Update: Added animation to the card/column components (_branch v3_)
+  - Animation is a feature I apply minimally--more from a lack of experience than of interest
+  - Since I recognize the benefit of animation to enhance UI and user experience, I do want to focus on learning and practicing by incorporating animation effects into future Frontend Mentor challenges
 
 ### Enhancement(s)
 
 - Add animation
-  - Display of cards?
+  - ~~Display of cards?~~
   - SVG icons on card hover?
 
 ### Tools & Resources
 
 - HTML & CSS
 - CSS Resets
-- [CSS Tricks - Transition](https://css-tricks.com/almanac/properties/t/transition/)
+- CSS Tricks: [Transition](https://css-tricks.com/almanac/properties/t/transition/), [Animation](https://css-tricks.com/almanac/properties/a/animation/)
+- MDN: [Using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
