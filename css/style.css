@@ -5,7 +5,7 @@
   --white: hsl(0, 0%, 100%);
   --white-75: hsla(0, 0%, 100%, 0.75);
   --gray-95: hsl(0, 0%, 95%);
-  --font-shoulders: 'Big Shoulders Display', cursive;
+  --font-shoulders: 'Big Shoulders Display', sans-serif;
   --font-deca: 'Lexend Deca', sans-serif;
 }
 
