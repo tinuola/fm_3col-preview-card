@@ -36,3 +36,5 @@ Live Site: [https://tinuola.github.io/fm_3col-preview-card/](https://tinuola.git
 - CSS Resets
 - CSS Tricks: [Transition](https://css-tricks.com/almanac/properties/t/transition/), [Animation](https://css-tricks.com/almanac/properties/a/animation/)
 - MDN: [Using CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+
+_Visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/tinuola) to view other challenges I've completed!_
