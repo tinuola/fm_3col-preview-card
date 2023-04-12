@@ -147,7 +147,7 @@ main {
   color: var(--darker-cyan);
 }
 
-/* Animation: Mobile */
+/* Card/Col Animation: Mobile */
 
 .col-one {
   -webkit-animation: 1s ease-out 1 slidefromtopmob-col1;
@@ -326,6 +326,45 @@ main {
 
     100% {
       transform: translateX(0%);
+    }
+  }
+}
+
+/* Icon Animation */
+
+@media (min-width: 1000px) {
+  .animate-card__image {
+    -webkit-animation: 0.5s linear 5 moveIcon;
+    animation: 0.5s linear 5 moveIcon;
+  }
+
+  @-webkit-keyframes moveIcon {
+    0% {
+      transform: translateX(5px);
+    }
+
+    50% {
+      transform: translateY(1px);
+    }
+
+    100% {
+      transform: translateX(0);
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes moveIcon {
+    0% {
+      transform: translateX(5px);
+    }
+
+    50% {
+      transform: translateY(1px);
+    }
+
+    100% {
+      transform: translateX(0);
+      transform: translateY(0);
     }
   }
 }
