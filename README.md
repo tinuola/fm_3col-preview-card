@@ -11,18 +11,14 @@ Solution to the _[3-Column Preview Card Component](https://www.frontendmentor.io
 
 ### Solution
 
-Live Site: [https://tinuola.github.io/fm_3col-preview-card/](https://tinuola.github.io/fm_3col-preview-card/)
+Live Site: [tinuola.github.io/fm_3col-preview-card/](https://tinuola.github.io/fm_3col-preview-card/)
 
 ### Retrospective
 
-- Another simple starter project
-- Revisiting the code a year later, I found a few redundancies to refactor (_branch v2_), which had me curious about the original approach I took
-- Though not a significant refactor or a noticeable difference visually, I see the update as a mark of refinement in my understanding web layout
-- Update: Added animation to the card/column components (_branch v3_)
-  - Animation is a feature I apply minimally--more from a lack of experience than of interest
+- Simple starter project
+- Added animation to the card/column components (_branch v3_)
   - It took a good while to figure out the keyframe sequence to have the cards/columns slide out at similar speeds or pace
   - Animating the SVG images [on each related button hover] called for JavaScript which wasn't an initial project criteria
-  - I recognize the benefit of animation to enhance UI and user experience, so I plan to focus on learning and practicing by incorporating animation effects into future Frontend Mentor challenges
 
 ### Enhancement(s)
 
