@@ -1,4 +1,4 @@
-# Frontend Mentor: 3-Column Preview Card
+## Frontend Mentor: 3-Column Preview Card
 
 Solution to the _[3-Column Preview Card Component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)_ challenge on Frontend Mentor.
 
